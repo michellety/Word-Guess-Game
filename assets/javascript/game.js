@@ -2,11 +2,14 @@
 var wins = 0,
     losses = 0,
     guessesRemaining = 10,
-    lettersGuessed = [];
+    lettersGuessed = [],
+    currentWord = [];
 
 //make an array with the words the computer can choose from
-
+var words = ["algae", "barnacle", "seaweed", "biodiversity", "whale", "anadromous", "sharks"];
 //key event to start the game
+
+//display blanks to represent the letters in the mystery word
 
 //key events to listen for the user entered letters
 
